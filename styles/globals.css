@@ -11,6 +11,8 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -21,7 +23,6 @@ header {
   color: #fff;
   margin: 0;
   padding: 0 1rem;
-  /* padding: .2rem 1rem; */
   filter: grayscale(10%);
 }
 
@@ -33,6 +34,12 @@ main {
   padding: .5rem 6rem;
   background-color: #171717;
 }
+  /* responsive design */
+  @media (max-width: 650px) {
+    main {
+      padding: .5rem 0rem;
+    }
+  }
 
 footer {
   display: flex;
