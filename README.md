@@ -1,6 +1,7 @@
-# OweOrganizer - Built with Node.js
+#🚀 OweOrganizer - a Node.js app
 
-First, run the development server:
+##✅ Run App
+Simply, run the development server:
 
 ```bash
 npm run dev
