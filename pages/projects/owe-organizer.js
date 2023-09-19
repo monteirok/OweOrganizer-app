@@ -51,7 +51,7 @@ export default function Home() {
 
       // const diff = Math.abs(totalK - totalB);
       setDifference(diff);
-      alert("lrg: " + largerAmnt + " || sml: " + smallerAmnt + " || diff: " + diff);
+      // alert("lrg: " + largerAmnt + " || sml: " + smallerAmnt + " || diff: " + diff);
     }
   };
 
