@@ -32,6 +32,25 @@
             filter: brightness(60%);
         }
 
+
+/* responsive design */
+@media (max-width: 650px) {
+    .responsiveHeader {
+        scale: .78;
+        transition: all .3s;
+    }
+    .responsiveSubHeader {
+        max-width: 31.94rem;
+        scale: .87;
+        transition: all .3s;
+    }
+    .responsiveOweOrganizerProj {
+        scale: .9;
+        transition: all .3s;
+    }
+}
+
+
 /* main */
 .mainHeaderContainer {
     width: 38.06rem;
@@ -40,11 +59,13 @@
     text-align: center;
     color: #e1e1e1;
 }
-    .mainHeader, .mainHeader {
+    .mainHeader {
         margin: 1rem;
+        margin-bottom: -.2;
         padding: 0;
         font-size: 5rem;
         font-weight: 800;
+        transition: all .3s;
     }
     .mainSubHeader {
         margin: 0;
@@ -52,6 +73,7 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 1.1rem;
         font-weight: 500;
+        transition: all .3s;
     }
     .oweOrganizerProj {
         margin-top: 3.5rem;
@@ -94,3 +116,4 @@
         scale: 97%;
         filter: brightness(75%);
     }
+      
