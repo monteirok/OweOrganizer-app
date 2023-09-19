@@ -1,6 +1,6 @@
 # 🚀 OweOrganizer - a Node.js app
 
-## ✅ Run App
+## ✔️ Run App
 
 Simply, run the development server:
 
