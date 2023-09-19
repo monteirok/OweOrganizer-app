@@ -36,12 +36,12 @@
 /* responsive design */
 @media (max-width: 650px) {
     .responsiveHeader {
-        scale: .78;
+        scale: .7;
         transition: all .3s;
     }
     .responsiveSubHeader {
-        max-width: 31.94rem;
-        scale: .87;
+        max-width: 31rem;
+        scale: .9;
         transition: all .3s;
     }
     .responsiveOweOrganizerProj {
