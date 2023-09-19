@@ -2,8 +2,7 @@
 
 ## ✅ Run App
 
-
-Simply, run the development server:
+#### Simply, run the development server:
 
 ```bash
 npm run dev
