@@ -40,7 +40,7 @@
         transition: all .3s;
     }
     .responsiveSubHeader {
-        max-width: 31rem;
+        /* max-width: 31rem; */
         scale: .9;
         transition: all .3s;
     }
@@ -53,7 +53,7 @@
 
 /* main */
 .mainHeaderContainer {
-    width: 38.06rem;
+    /* width: 38.06rem; */
     margin: 0;
     padding: 0;
     text-align: center;

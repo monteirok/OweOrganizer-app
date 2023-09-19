@@ -1,5 +1,5 @@
 {
-  "name": "test-app",
+  "name": "responsive-apps-hook",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,11 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.4.19",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.5.1",
+    "next": "13.5.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "engines": {
-    "node": ">=18"
   }
 }

@@ -1,0 +1,119 @@
+/* header */
+.headerTitle {
+    font-size: 1.8rem;
+    color: #fed650;
+    text-decoration: none;
+    filter: grayscale(15%);
+}
+    .headerTitle h1 {
+        /* variables */
+        --g: 0px; /* gap */
+        --b: .65rem; /* border thickness*/
+        --c: #0696d4; /* color */
+        --_c: #0000 0 25%, var(--c) 0 50%;
+        --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+        --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+        /* styles */
+        width: fit-content;
+        margin: 1rem .1rem;
+        padding: .35rem 1.15rem;
+        background: var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+                    var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+        background-size: 200% var(--b),var(--b) 200%;
+        border-radius: 10px;
+        filter: brightness(90%);
+        font-weight: 800;
+        cursor: pointer;
+        transition: all .68s;
+    }
+        .headerTitle h1:hover {
+            --_p: 66%;
+            scale: 98%;
+            filter: brightness(60%);
+        }
+
+
+/* responsive design */
+@media (max-width: 650px) {
+    .responsiveHeader {
+        scale: .7;
+        transition: all .3s;
+    }
+    .responsiveSubHeader {
+        max-width: 31rem;
+        scale: .9;
+        transition: all .3s;
+    }
+    .responsiveOweOrganizerProj {
+        scale: .9;
+        transition: all .3s;
+    }
+}
+
+
+/* main */
+.mainHeaderContainer {
+    width: 38.06rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #e1e1e1;
+}
+    .mainHeader {
+        margin: 1rem;
+        margin-bottom: -.2;
+        padding: 0;
+        font-size: 5rem;
+        font-weight: 800;
+        transition: all .3s;
+    }
+    .mainSubHeader {
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        transition: all .3s;
+    }
+    .oweOrganizerProj {
+        margin-top: 3.5rem;
+        filter: brightness(90%);
+        transition: all .3s;
+    }
+        .oweOrganizerProj:hover {
+            scale: .99;
+            filter: brightness(80%);
+        }
+
+/* misc */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boldText {
+    font-weight: 700;
+}
+
+.smileySymbol {
+    color: #fed550;
+    font-size: 1.68rem;
+    font-weight: 900;
+    filter: brightness(65%);
+}
+
+.githubIcon {
+    margin: .1rem 0 .1rem 2.5rem;
+    padding-top: .145rem;
+    background-color: #e1e1e1;
+    border: .125rem solid #fed650;
+    border-radius: 100px;
+    transition: all .38s;
+}
+    .githubIcon:hover {
+        scale: 97%;
+        filter: brightness(75%);
+    }
+      
