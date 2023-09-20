@@ -5,6 +5,7 @@ html, body {
   background-size: cover;
   background-position: center;
   font-family: 'Rubik', sans-serif;  
+  user-select: none;
 }
 
 .appContainer {
