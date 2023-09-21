@@ -51,7 +51,7 @@ function Mobile() {
                 alt=""
             />
           </Link>
-          <Link className={`${utilStyles.oweOrganizerProj} ${utilStyles.responsiveOweOrganizerProj}`} href="/projects/svg-buttons">
+          <Link href="/projects/svg-buttons">
             <h1>SVG BUTTONS</h1>
           </Link>
         </>
