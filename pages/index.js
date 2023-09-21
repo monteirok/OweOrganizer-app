@@ -51,9 +51,6 @@ function Mobile() {
                 alt=""
             />
           </Link>
-          <Link href="/projects/svg-buttons">
-            <h1>SVG BUTTONS</h1>
-          </Link>
         </>
       </div>
     </>
