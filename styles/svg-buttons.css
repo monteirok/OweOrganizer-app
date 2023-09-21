@@ -1,4 +1,4 @@
-.button-15 {
+.button15 {
   background-image: linear-gradient(#42A1EC, #0070C9);
   border: 1px solid #0077CC;
   border-radius: 4px;
@@ -23,24 +23,24 @@
   white-space: nowrap;
 }
 
-.button-15:disabled {
+.button15:disabled {
   cursor: default;
   opacity: .3;
 }
 
-.button-15:hover {
+.button15:hover {
   background-image: linear-gradient(#51A9EE, #147BCD);
   border-color: #1482D0;
   text-decoration: none;
 }
 
-.button-15:active {
+.button15:active {
   background-image: linear-gradient(#3D94D9, #0067B9);
   border-color: #006DBC;
   outline: none;
 }
 
-.button-15:focus {
+.button15:focus {
   box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
   outline: none;
 }
@@ -48,7 +48,7 @@
 /* 
  */
 
- .button-19 {
+ .button19 {
    appearance: button;
    background-color: #1899D6;
    border: solid transparent;
@@ -79,7 +79,7 @@
    width: 100%;
  }
  
- .button-19:after {
+ .button19:after {
    background-clip: padding-box;
    background-color: #1CB0F6;
    border: solid transparent;
@@ -94,16 +94,16 @@
    z-index: -1;
  }
  
- .button-19:main,
- .button-19:focus {
+ .button19:main,
+ .button19:focus {
    user-select: auto;
  }
  
- .button-19:hover:not(:disabled) {
+ .button19:hover:not(:disabled) {
    filter: brightness(1.1);
    -webkit-filter: brightness(1.1);
  }
  
- .button-19:disabled {
+ .button19:disabled {
    cursor: auto;
  }
